@@ -4,50 +4,40 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-.nav {
-    background-color: rgb(229, 81, 17);
+
+.ommignav ul, .ommignav.footer ul {
+    display:flex;
     list-style-type: none;
-    margin: 0;
-    display: flex;
-    justify-content: Left;
-    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
-
-.nav a {
-    display:block;
-    padding: 30px 50px;
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
-}
-
-.nav a:hover {
+.ommignav a:hover, .ommignav.footer a:hover {
     color:rgb(93, 93, 177)
 }
 
-.nav2 {
+.ommignav, .ommignav.footer {
     background-color: rgb(229, 81, 17);
-    list-style-type: none;
+    border-radius: 20px;
     margin:0;
-    display: flex;
-    justify-content: left;
+    padding: 0;
 }
 
-.footer {
-    padding: 5px;
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-size: 45px;
+.ommignav li, .ommignav.footer li {
+    padding: 20px 40px;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    text-align: left;
-    margin-top: 30px;
-
 }
 
-.container {
+.ommignav a, .ommignav.footer a {
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif
+}
+
+.ommigcontainer {
     display: flex;
     align-items: flex-start;
     margin-top: 30px;
@@ -60,15 +50,14 @@ body{
 }
 
 
-.container p {
+.ommigcontainer p {
     line-height: 1.4;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
-.textruta {
-    float: left;
+.ommigtextruta {
     background-color: rgba(255, 255, 255, 0.336);
     color: white;
     border-radius: 20px;
