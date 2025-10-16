@@ -1,26 +1,41 @@
 .nav {
-    background-color: darkgray;
+    background-color: rgb(229, 81, 17);
     list-style-type: none;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.nav li {
-    margin: 0;
-}
 
 .nav a {
     display: block;
-    padding: 15px 20px;
+    padding: 30px 50px;
     color: black;
-    font-size: 30px;
+    font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color:rgb(93, 93, 177)
 }
 
 p {
     text-align: center;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.nav2 {
+    background-color: rgb(229, 81, 17);
+    list-style-type: none;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav2 a {
+display:block;
 }
